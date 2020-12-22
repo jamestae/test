@@ -5,5 +5,6 @@ description: This is a post
 date: 2020-12-22
 featuredImage: /images/uploads/image1.jpg
 ---
-
 Hello world
+
+![](/images/uploads/image1.jpg)
