@@ -1,13 +1,10 @@
-<ul>
+<div>
     {% for post in postslist %}
-        <li>
-            <strong>
-                <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-            </strong>
-            -
-            <span>
+        <div>
+            <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+            <div>
                 {{ post.data.description }}
-            </span>
-        </li>
+            </div>
+        </div>
     {% endfor %}
-</ul>
+</div>
