@@ -6,5 +6,4 @@ date: 2020-12-22
 featuredImage: /images/uploads/image1.jpg
 color: .red
 ---
-
-Hello world
+Hello world 2
